@@ -1,35 +1,24 @@
 import React from "react";
 import { Linkedin, Github } from "@icons-pack/react-simple-icons";
+import resume from "../assets/LeandroBordon.pdf";
 const links = () => {
   return (
     <>
-      <li className="bg-primary rounded-md  mx-2 py-4 m-2 hover:bg-hover">
-        <a
-          className="text-white font-bold hover:text-secundary"
-          href="https://www.linkedin.com/in/leandro-bordon"
-          target="_blank"
-        >
+      <a href="https://www.linkedin.com/in/leandro-bordon" target="_blank">
+        <li className="bg-primary rounded-md text-white font-bold hover:text-secundary  mx-2 py-4 m-2 hover:bg-hover">
           <Linkedin size={24} className="inline" /> Linkedin resume
-        </a>
-      </li>
-      <li className="bg-primary rounded-md mx-2 py-4 m-2 hover:bg-hover">
-        <a
-          className="text-white font-bold hover:text-secundary"
-          href="https://github.com/Alocerio"
-          target="_blank"
-        >
+        </li>
+      </a>
+      <a className="" href="https://github.com/Alocerio" target="_blank">
+        <li className="text-white font-bold hover:text-secundary bg-primary rounded-md mx-2 py-4 m-2 hover:bg-hover">
           <Github size={24} className="inline" /> - GitHub porfile
-        </a>
-      </li>
-      <li className="bg-primary rounded-md mx-2 py-4 m-2 hover:bg-hover">
-        <a
-          className="text-white font-bold hover:text-secundary"
-          href="/src/assets/resume - Leandro Bordon.pdf"
-          target="_blank"
-        >
+        </li>
+      </a>
+      <a href={resume} target="_blank">
+        <li className="bg-primary text-white font-bold hover:text-secundary rounded-md mx-2 py-4 m-2 hover:bg-hover">
           ⬇ Download my resume
-        </a>
-      </li>
+        </li>
+      </a>
     </>
   );
 };
