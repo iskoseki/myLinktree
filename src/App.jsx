@@ -7,7 +7,7 @@ import LinksContainer from "./components/linksContainer/LinksContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div className=" drop-shadow-2xl shadow-xl bg-secundary p-12 rounded-md">
       <Header />
       <LinksContainer />
       <Footer />
