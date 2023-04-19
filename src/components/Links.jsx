@@ -11,7 +11,7 @@ const links = () => {
       </a>
       <a className="" href="https://github.com/Alocerio" target="_blank">
         <li className="transition ease-in delay-100 text-white font-bold hover:text-secundary bg-primary rounded-md mx-2 py-4 m-2 hover:bg-hover">
-          <Github size={24} className="inline" /> - GitHub porfile
+          <Github size={24} className="inline" /> GitHub porfile
         </li>
       </a>
       <a href={resume} target="_blank">
