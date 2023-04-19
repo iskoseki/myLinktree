@@ -23,6 +23,7 @@ module.exports = {
       secundary: "#022A35",
       hover: "#50edab",
     },
+
     extend: {},
   },
   plugins: [],
