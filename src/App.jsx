@@ -14,8 +14,6 @@ const ContentCard = (props) => {
   );
 };
 
- 
-
 function App() {
   return <ContentCard />;
 }
