@@ -11,7 +11,7 @@ const Footer = () => {
           🌎 <span class="ml-3 text-xl hover:underline">leandrobordon.com</span>
         </a>
         <p class="transition ease-in delay-200 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2023 Leandro Bordon{" "}
+          © All rights reserved 2023{" "}
         </p>
       </div>
     </footer>
